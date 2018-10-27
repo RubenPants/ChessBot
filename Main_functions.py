@@ -32,13 +32,6 @@ def compute_best_move(board):
     """
     best_node = alphabeta([0, []], depth_tree, float("-inf"), float("inf"), True, board)
 
-    # """
-    print("best score: ", end="")
-    print(best_node[0])
-    print("Corresponding moves: ", end="")
-    print(best_node[1])
-    # """
-
     if (best_node[0] == float("inf")) and (len(best_node[1]) == 1):
         return best_node[1][0], True
     return best_node[1][0], False

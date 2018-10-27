@@ -14,13 +14,9 @@ def get_start_pos_board():
     """
     Return the left-top position of the board
     """
-
-    """
     pos = imagesearch("Images/init_board.jpg")
     print(pos[0], pos[1] + get_dimension_board()[1])
     return pos[0], pos[1] + get_dimension_board()[1]
-    """
-    return 353, 729  # Hard-code to improve efficiency
 
 
 def print_real_board(board):
