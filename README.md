@@ -9,11 +9,11 @@ Before you can use the code properly, you need to do a following things, these a
 Link: https://www.microsoft.com/en-us/p/the-chess-lv100/9wzdncrfj23z?activetab=pivot:overviewtab  
 3. Change the images in the file (the _images_ directory). You need to do this part to make the code work since the image-recognition simply compares pixels,
 and thus if your computer has a different resolution as mine (which captured the images), the code will not work correctly.  
-	i. _B_ and _W_ stand for a black and white tile correspondingly  
-	ii. _TWB_ stands for _Tower_ with a _White_ colour and a _Black_ background (tile), this protocol is used throughout all the images with the following 
+	1. _B_ and _W_ stand for a black and white tile correspondingly  
+	2. _TWB_ stands for _Tower_ with a _White_ colour and a _Black_ background (tile), this protocol is used throughout all the images with the following 
 	abbreviations: {B=Bishop}, {H=Horse}, {K=King}, {P=Pion}, {Q=Queen}, {T=Tower}. You need to capture images of all these pieces with their corresponding
 	colour and background to make the code run properly.  
-	iii. Capture the next elements:  
+	3. Capture the next elements:  
 		* _init board_ - this image is used to map the starting-pixels of the board on your PC  
 		* _promotion_ - the promotion-title, this is needed to give a pion that crosses the board a promotion to queen, tower, ... .  
 		* _promotion queen_ - the queen-option within the _promotion_ window, this is the option the code will always choose, since it has the most overall value  
