@@ -42,4 +42,4 @@ to change the depth inside the _Main Functions_ file (a TODO will mark this loca
 * Three is an uneven number, which makes the algorithm more offensive  
 * My machine is not that high-end, and thus a search-tree with a depth of five would make the algorithm to slow  
 
-If a search-tree of five does not make the algorithm too slow on your machine, I would definitely recommend you to choose a depth of five.
+If a search-tree of five does not make the algorithm too slow on your machine, than I would definitely recommend you to choose a depth of five.
